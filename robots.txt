@@ -1,0 +1,4 @@
+user-agent: *
+allow: /
+
+sitemap: https://main--eds--saurkuma.aem.live/sitemap.xml
