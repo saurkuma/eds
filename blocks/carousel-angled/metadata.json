@@ -1,0 +1,10 @@
+{
+  "variantName": "carousel-angled",
+  "baseBlock": "carousel",
+  "canonicalModel": "container",
+  "visualCharacteristics": "Angled/tilted carousel of example website preview images sliding horizontally, with partial-width rotated image tiles.",
+  "contentPattern": "One row per slide; first cell is the preview image with optional caption content.",
+  "usage": "Decorative gallery of website/example previews scrolling across a section, typically within a hero.",
+  "options": [],
+  "memberVariantIds": ["carousel-angled"]
+}

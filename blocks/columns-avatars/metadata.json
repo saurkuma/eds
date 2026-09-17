@@ -1,0 +1,10 @@
+{
+  "variantName": "columns-avatars",
+  "baseBlock": "columns",
+  "canonicalModel": "container",
+  "visualCharacteristics": "A cluster of overlapping circular customer headshot images arranged in a single centered row.",
+  "contentPattern": "One row of columns, each containing a single headshot image.",
+  "usage": "Social-proof avatar cluster showing a group of customers/users.",
+  "options": [],
+  "memberVariantIds": ["columns-avatars"]
+}

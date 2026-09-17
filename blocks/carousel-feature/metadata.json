@@ -1,0 +1,10 @@
+{
+  "variantName": "carousel-feature",
+  "baseBlock": "carousel",
+  "canonicalModel": "container",
+  "visualCharacteristics": "Large rotating carousel of feature slides, each with a background/preview image plus overlaid heading, description, and CTA, with navigation arrows and slide indicators.",
+  "contentPattern": "One row per slide; first cell is the image, remaining cell(s) hold heading, description, and CTA.",
+  "usage": "Showcases sequential feature stories or product highlights in a swipeable/rotating carousel.",
+  "options": [],
+  "memberVariantIds": ["carousel-feature"]
+}

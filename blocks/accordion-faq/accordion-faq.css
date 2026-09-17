@@ -1,0 +1,55 @@
+.accordion-faq details {
+  border-bottom: 1px solid #dadada;
+}
+
+.accordion-faq details:first-of-type {
+  border-top: 1px solid #dadada;
+}
+
+.accordion-faq details p {
+  margin-bottom: 0.8em;
+}
+
+.accordion-faq details summary {
+  position: relative;
+  padding: 20px 46px 20px 0;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 500;
+}
+
+.accordion-faq details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* '+' marker that becomes '−' when open. */
+.accordion-faq details summary::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 16px;
+  height: 2px;
+  background-color: currentcolor;
+  transition: transform 0.2s;
+}
+
+.accordion-faq details summary::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 2px;
+  height: 16px;
+  margin-top: -8px;
+  background-color: currentcolor;
+  transition: opacity 0.2s;
+}
+
+.accordion-faq details[open] summary::before {
+  opacity: 0;
+}
+
+.accordion-faq details .accordion-faq-item-body {
+  padding: 0 0 20px;
+}

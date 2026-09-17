@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.squarespace.com/",
+  "path": "index",
+  "timestamp": "2026-09-17T09:14:32.164Z",
+  "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+  "template": "home",
+  "blocks": [
+    "hero-photo",
+    "hero-photo",
+    "carousel-angled",
+    "columns-stats",
+    "columns-stats",
+    "columns-stats",
+    "tabs-pills",
+    "tabs-pills",
+    "carousel-feature",
+    "cards-feature",
+    "cards-entry",
+    "cards-entry",
+    "columns-avatars",
+    "hero-display",
+    "hero-display",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "hero-video",
+    "hero-video"
+  ]
+}

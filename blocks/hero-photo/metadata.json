@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-photo",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-bleed background photograph with a centered white heading, supporting subtext, and a primary call-to-action button overlaid on top.",
+  "contentPattern": "One image cell (background) followed by heading, optional paragraph subtext, and a CTA link.",
+  "usage": "Prominent page-top banner introducing the page with a background image, headline, and CTA.",
+  "options": [],
+  "memberVariantIds": ["hero-photo"]
+}

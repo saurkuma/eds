@@ -1,0 +1,10 @@
+{
+  "variantName": "columns-stats",
+  "baseBlock": "columns",
+  "canonicalModel": "container",
+  "visualCharacteristics": "A stats strip: an intro line followed by three large numeric stats (e.g. 14M+, $36B+, 200+) displayed side by side, each with a small label beneath.",
+  "contentPattern": "One row of columns; each column holds a large number followed by a short descriptive label.",
+  "usage": "Highlights key metrics/social-proof numbers in an evenly spaced row.",
+  "options": [],
+  "memberVariantIds": ["columns-stats"]
+}

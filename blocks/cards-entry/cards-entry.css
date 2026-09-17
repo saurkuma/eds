@@ -1,0 +1,39 @@
+.cards-entry > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+/* Two large entry-point cards. */
+.cards-entry > ul > li {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 320px;
+}
+
+.cards-entry .cards-entry-card-image {
+  line-height: 0;
+}
+
+.cards-entry .cards-entry-card-body {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cards-entry > ul > li img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (width >= 600px) {
+  .cards-entry > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

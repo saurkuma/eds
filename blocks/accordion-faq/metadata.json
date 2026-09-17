@@ -1,0 +1,10 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "container",
+  "visualCharacteristics": "Full-width expandable rows, each with a title and a '+' marker that toggles to reveal the row's body content; used for how-to, FAQ, and support sections.",
+  "contentPattern": "One row per item; the first cell is the question/label and the second cell is the answer/body content.",
+  "usage": "Expandable question-and-answer or how-to list where readers open one row at a time.",
+  "options": [],
+  "memberVariantIds": ["accordion-faq"]
+}

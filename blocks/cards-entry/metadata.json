@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-entry",
+  "baseBlock": "cards",
+  "canonicalModel": "container",
+  "visualCharacteristics": "Two large entry-point cards side by side, each with imagery, a heading, supporting text, and a prominent call-to-action.",
+  "contentPattern": "One row per card; an image cell plus a body cell with heading, description, and a CTA link.",
+  "usage": "Presents a small number of major choices/entry points (e.g. 'Build with AI' vs 'Browse templates') as large actionable cards.",
+  "options": [],
+  "memberVariantIds": ["cards-entry"]
+}

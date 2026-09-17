@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "canonicalModel": "container",
+  "visualCharacteristics": "A row of four dark feature cards, each with an image/thumbnail, a heading, and a short description.",
+  "contentPattern": "One row per card; an image cell plus a body cell containing heading and description text.",
+  "usage": "Highlights a set of product features or capabilities as an even grid of cards.",
+  "options": [],
+  "memberVariantIds": ["cards-feature"]
+}
