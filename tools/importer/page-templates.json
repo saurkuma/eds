@@ -14,136 +14,227 @@
       "blocks": [
         {
           "name": "hero-photo",
-          "instances": ["#homepage-hero .homepage-hero__background", "#homepage-hero .hero-text__static"]
+          "instances": [
+            "#homepage-hero .homepage-hero__background",
+            "#homepage-hero .hero-text__static"
+          ]
         },
         {
           "name": "carousel-angled",
-          "instances": ["#homepage-hero .angled-carousel"]
+          "instances": [
+            "#homepage-hero .angled-carousel"
+          ]
         },
         {
           "name": "columns-stats",
-          "instances": ["#homepage-hero .stats", "#homepage-hero .homepage-hero__stats"]
+          "instances": [
+            "#homepage-hero .stats",
+            "#homepage-hero .homepage-hero__stats"
+          ]
         },
         {
           "name": "tabs-pills",
-          "instances": ["#grow-your-business .pills-container", "#grow-your-business .pills"]
+          "instances": [
+            "#grow-your-business .pills-container",
+            "#grow-your-business .pills"
+          ]
         },
         {
           "name": "carousel-feature",
-          "instances": ["#grow-your-business .king-carousel"]
+          "instances": [
+            "#grow-your-business .king-carousel"
+          ]
         },
         {
           "name": "cards-feature",
-          "instances": ["#one-platform .card-carousel"]
+          "instances": [
+            "#one-platform .card-carousel"
+          ]
         },
         {
           "name": "cards-entry",
-          "instances": ["#get-started .templates__template-carousel", "#get-started .templates__mobile-carousel-wrapper"]
+          "instances": [
+            "#get-started .templates__template-carousel",
+            "#get-started .templates__mobile-carousel-wrapper"
+          ]
         },
         {
           "name": "columns-avatars",
-          "instances": ["#customers-served .faces"]
+          "instances": [
+            "#customers-served .faces"
+          ]
         },
         {
           "name": "hero-display",
-          "instances": ["#made-with-sqsp .made-with-sqsp__intersection-ref", "#made-with-sqsp"]
+          "instances": [
+            "#made-with-sqsp .made-with-sqsp__intersection-ref",
+            "#made-with-sqsp"
+          ]
         },
         {
           "name": "accordion-faq",
-          "instances": ["#homepage-how-to .accordion-headline", "#homepage-faq .accordion-headline", "#homepage-support .accordion-headline"]
+          "instances": [
+            "#homepage-how-to .accordion-headline",
+            "#homepage-faq .accordion-headline",
+            "#homepage-support .accordion-headline"
+          ]
         },
         {
           "name": "hero-video",
-          "instances": [".conversion.conversion--centered", ".conversion"]
+          "instances": [
+            ".conversion.conversion--centered",
+            ".conversion"
+          ]
         }
       ],
       "sections": [
         {
           "id": "homepage-hero",
           "name": "hero",
-          "selector": ["#homepage-hero"],
+          "selector": [
+            "#homepage-hero"
+          ],
           "style": "dark",
-          "blocks": ["hero-photo", "carousel-angled", "columns-stats"],
+          "blocks": [
+            "hero-photo",
+            "carousel-angled",
+            "columns-stats"
+          ],
           "defaultContent": []
         },
         {
           "id": "grow-your-business",
           "name": "grow-your-business",
-          "selector": ["#grow-your-business"],
+          "selector": [
+            "#grow-your-business"
+          ],
           "style": "light",
-          "blocks": ["tabs-pills", "carousel-feature"],
-          "defaultContent": ["#grow-your-business h2", "#grow-your-business p"]
+          "blocks": [
+            "tabs-pills",
+            "carousel-feature"
+          ],
+          "defaultContent": [
+            "#grow-your-business h2",
+            "#grow-your-business p"
+          ]
         },
         {
           "id": "one-platform",
           "name": "one-platform",
-          "selector": ["#one-platform"],
+          "selector": [
+            "#one-platform"
+          ],
           "style": "light",
-          "blocks": ["cards-feature"],
-          "defaultContent": ["#one-platform h2", "#one-platform p"]
+          "blocks": [
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "#one-platform h2",
+            "#one-platform p"
+          ]
         },
         {
           "id": "get-started",
           "name": "get-started",
-          "selector": ["#get-started"],
+          "selector": [
+            "#get-started"
+          ],
           "style": "dark",
-          "blocks": ["cards-entry"],
-          "defaultContent": ["#get-started h2", "#get-started p"]
+          "blocks": [
+            "cards-entry"
+          ],
+          "defaultContent": [
+            "#get-started h2",
+            "#get-started p"
+          ]
         },
         {
           "id": "your-domain",
           "name": "your-domain",
-          "selector": ["#your-domain"],
+          "selector": [
+            "#your-domain"
+          ],
           "style": "dark",
           "blocks": [],
-          "defaultContent": ["#your-domain h2", "#your-domain p", "#your-domain a"]
+          "defaultContent": [
+            "#your-domain h2",
+            "#your-domain p",
+            "#your-domain a"
+          ]
         },
         {
           "id": "customers-served",
           "name": "customers-served",
-          "selector": ["#customers-served"],
+          "selector": [
+            "#customers-served"
+          ],
           "style": "dark",
-          "blocks": ["columns-avatars"],
-          "defaultContent": ["#customers-served h2"]
+          "blocks": [
+            "columns-avatars"
+          ],
+          "defaultContent": [
+            "#customers-served h2"
+          ]
         },
         {
           "id": "made-with-sqsp",
           "name": "made-with-squarespace",
-          "selector": ["#made-with-sqsp"],
+          "selector": [
+            "#made-with-sqsp"
+          ],
           "style": "dark",
-          "blocks": ["hero-display"],
+          "blocks": [
+            "hero-display"
+          ],
           "defaultContent": []
         },
         {
           "id": "homepage-how-to",
           "name": "how-to",
-          "selector": ["#homepage-how-to"],
+          "selector": [
+            "#homepage-how-to"
+          ],
           "style": "light",
-          "blocks": ["accordion-faq"],
+          "blocks": [
+            "accordion-faq"
+          ],
           "defaultContent": []
         },
         {
           "id": "homepage-faq",
           "name": "faq",
-          "selector": ["#homepage-faq"],
+          "selector": [
+            "#homepage-faq"
+          ],
           "style": "light",
-          "blocks": ["accordion-faq"],
+          "blocks": [
+            "accordion-faq"
+          ],
           "defaultContent": []
         },
         {
           "id": "homepage-support",
           "name": "support",
-          "selector": ["#homepage-support"],
+          "selector": [
+            "#homepage-support"
+          ],
           "style": "light",
-          "blocks": ["accordion-faq"],
+          "blocks": [
+            "accordion-faq"
+          ],
           "defaultContent": []
         },
         {
           "id": "conversion",
           "name": "conversion",
-          "selector": [".conversion", "#content > div"],
+          "selector": [
+            ".conversion",
+            "#content > div"
+          ],
           "style": "dark",
-          "blocks": ["hero-video"],
+          "blocks": [
+            "hero-video"
+          ],
           "defaultContent": []
         }
       ]

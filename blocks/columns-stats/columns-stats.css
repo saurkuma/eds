@@ -13,11 +13,12 @@
   gap: 4px;
 }
 
-/* Large stat number (first line) rendered prominently over its label. */
+/* Large stat number (first line): big and light, matching Squarespace hero stats. */
 .columns-stats > div > div > :first-child {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.1;
+  font-size: clamp(40px, 6vw, 52px);
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
 }
 
 .columns-stats img {

@@ -5,15 +5,15 @@
   justify-content: center;
 }
 
-/* Overlapping circular headshots. */
+/* Overlapping circular headshots (Squarespace: 48px). */
 .columns-avatars .columns-avatars-avatar {
   flex: 0 0 auto;
-  width: 64px;
-  height: 64px;
-  margin-left: -16px;
+  width: 48px;
+  height: 48px;
+  margin-left: -12px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid var(--background-color, #fff);
+  border: 2px solid #000;
 }
 
 .columns-avatars .columns-avatars-avatar:first-child {
@@ -30,8 +30,8 @@
 
 @media (width >= 600px) {
   .columns-avatars .columns-avatars-avatar {
-    width: 80px;
-    height: 80px;
-    margin-left: -20px;
+    width: 56px;
+    height: 56px;
+    margin-left: -14px;
   }
 }
