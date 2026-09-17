@@ -1,0 +1,10 @@
+{
+  "variantName": "tabs-pills",
+  "baseBlock": "tabs",
+  "canonicalModel": "container",
+  "visualCharacteristics": "A horizontal row of rounded pill-style tab selectors (e.g. Services, Online Store, Invoicing) with the selected pill highlighted; the active tab reveals its associated content panel below.",
+  "contentPattern": "One row per tab; the first cell is the pill label and the rest of the row is that tab's panel content.",
+  "usage": "Lets authors group related content under pill-style tabs the reader can switch between.",
+  "options": [],
+  "memberVariantIds": ["tabs-pills"]
+}

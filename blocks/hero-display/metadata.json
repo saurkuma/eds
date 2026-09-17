@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-display",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Very large centered display headline set over a full-bleed dark/animated background, with minimal or no supporting text.",
+  "contentPattern": "One background image cell followed by a large display heading and optional short subtext.",
+  "usage": "Statement-style section that showcases a large centered display title over an immersive background.",
+  "options": [],
+  "memberVariantIds": ["hero-display"]
+}

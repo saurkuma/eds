@@ -1,0 +1,48 @@
+.tabs-pills .tabs-pills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100%;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+/* Rounded pill-style selectors. */
+.tabs-pills .tabs-pills-list button {
+  flex: 0 0 max-content;
+  margin: 0;
+  border: 1px solid #dadada;
+  border-radius: 999px;
+  padding: 0.5em 1.25em;
+  background-color: transparent;
+  color: initial;
+  font-weight: 500;
+  line-height: unset;
+  text-align: initial;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.tabs-pills .tabs-pills-list button p {
+  margin: 0;
+}
+
+.tabs-pills .tabs-pills-list button[aria-selected='true'] {
+  background-color: currentcolor;
+  cursor: initial;
+}
+
+.tabs-pills .tabs-pills-list button[aria-selected='true'] p {
+  color: var(--background-color, #fff);
+}
+
+.tabs-pills .tabs-pills-panel {
+  margin-top: 24px;
+  padding: 24px 0;
+  overflow: auto;
+}
+
+.tabs-pills .tabs-pills-panel[aria-hidden='true'] {
+  display: none;
+}

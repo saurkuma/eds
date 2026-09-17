@@ -1,0 +1,20 @@
+:root {
+  /* Clarkson is Squarespace-proprietary; fall back to a neo-grotesque system stack */
+  --heading-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  --body-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  --background-color: #fff;
+  --text-color: #000;
+  --link-color: #000;
+  --link-hover-color: #444;
+  --light-color: #fff;
+  --dark-color: #000;
+  --section-padding: 80px;
+  --nav-height: 72px;
+  --content-max-width: 1200px;
+  --heading-size-xxl: 52px;
+  --heading-size-xl: 40px;
+  --heading-size-l: 32px;
+  --heading-size-m: 26px;
+  --heading-size-s: 20px;
+  --heading-size-xs: 16px;
+}

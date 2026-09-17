@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-video",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Centered closing call-to-action (heading, short subtext, and primary button) overlaid on a full-bleed background video or image.",
+  "contentPattern": "An optional background video link or image cell, followed by a heading, short paragraph, and a CTA link.",
+  "usage": "Closing conversion section that drives sign-up over an immersive background video.",
+  "options": [],
+  "memberVariantIds": ["hero-video"]
+}

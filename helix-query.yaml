@@ -8,7 +8,6 @@ indices:
       - '**/Document.*'
     target: //query-index.xlsx
     properties:
-    path:
       author:
         select: head > meta[name="author"]
         value: |
