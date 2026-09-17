@@ -1,20 +1,123 @@
+/* Footer — Squarespace-style: black background, white text, multi-column links. */
+
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 56px 24px 32px;
 }
 
-footer .footer p {
+footer .footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer-content a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-content p {
+  margin: 0 0 8px;
+}
+
+/* Brand block */
+footer .footer-brand img {
+  height: 24px;
+  width: auto;
+  margin-bottom: 16px;
+}
+
+footer .footer-brand p {
+  color: rgb(255 255 255 / 60%);
+  font-size: 13px;
+}
+
+/* Columns */
+footer .footer-columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+footer .footer-column h2 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: rgb(255 255 255 / 60%);
+  margin: 0 0 12px;
+}
+
+footer .footer-column ul {
+  list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+footer .footer-column li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Bottom bar */
+footer .footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid rgb(255 255 255 / 15%);
+}
+
+footer .footer-bottom ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+footer .footer-bottom li {
+  color: rgb(255 255 255 / 70%);
+}
+
+footer .footer-bottom p {
+  font-size: 13px;
+  color: rgb(255 255 255 / 50%);
+}
+
+@media (width >= 600px) {
+  footer .footer-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer .footer-bottom {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 @media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+  footer .footer-content {
+    padding: 64px 32px 32px;
+  }
+
+  footer .footer-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (width >= 1200px) {
+  footer .footer-columns {
+    grid-template-columns: repeat(7, 1fr);
   }
 }
