@@ -32,9 +32,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 16px;
+  gap: 20px;
   max-width: 800px;
   width: 100%;
+  color: #fff;
 }
 
 .hero-video-content h1,
@@ -42,6 +43,30 @@
 .hero-video-content h3,
 .hero-video-content p {
   margin: 0;
+  color: #fff;
+}
+
+.hero-video-content h1,
+.hero-video-content h2 {
+  font-size: clamp(36px, 6vw, 52px);
+  font-weight: 300;
+  line-height: 1.04;
+  letter-spacing: -0.05em;
+}
+
+/* Closing CTA: white pill on the dark video background */
+.hero-video-content a.button:any-link {
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  padding: 18px 28px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero-video-content a.button:hover,
+.hero-video-content a.button:focus {
+  background-color: #e6e6e6;
 }
 
 @media (width >= 600px) {

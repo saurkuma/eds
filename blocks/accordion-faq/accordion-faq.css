@@ -1,21 +1,32 @@
 .accordion-faq details {
-  border-bottom: 1px solid #dadada;
+  border-bottom: 1px solid currentcolor;
 }
 
 .accordion-faq details:first-of-type {
-  border-top: 1px solid #dadada;
+  border-top: 1px solid currentcolor;
 }
 
 .accordion-faq details p {
   margin-bottom: 0.8em;
 }
 
+/* Large Squarespace-style row title (26px, light weight, tight tracking). */
 .accordion-faq details summary {
   position: relative;
-  padding: 20px 46px 20px 0;
+  padding: 28px 56px 28px 0;
   cursor: pointer;
   list-style: none;
-  font-weight: 500;
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.accordion-faq details summary h2,
+.accordion-faq details summary h3 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
 }
 
 .accordion-faq details summary::-webkit-details-marker {
